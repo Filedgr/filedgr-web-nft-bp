@@ -8,11 +8,21 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@chinhpd/vue3-grid-images": "^1.0.3",
+    "axios": "^0.27.2",
     "core-js": "^3.6.5",
+    "csv-parse": "^5.2.0",
     "vue": "^3.0.0",
     "vue-class-component": "^8.0.0-0",
+    "vue-pdf-embed": "^1.1.4",
     "vue-router": "^4.0.0-0",
-    "vuex": "^4.0.0-0"
+    "vue-socials": "^2.0.0-0",
+    "vue3-carousel": "^0.1.40",
+    "vue3-charts": "^1.1.31",
+    "vue3-timeline": "^1.2.3",
+    "vuestic-ui": "^1.4.1",
+    "vuex": "^4.0.0-0",
+    "xrpl": "^2.3.0"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.18.0",

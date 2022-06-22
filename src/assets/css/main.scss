@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import "vars.scss";
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0px !important;
+  background-color: $bg-color;
+  color: $secondary-color;
+  font-family: $font-stack;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.carousel__item {
+  min-height: 600px;
+  width: 600px;
+  background-color: white;
+  //color:  var(--vc-clr-white);
+  font-size: 20px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel__slide {
+  padding: 10px;
+  color: red;
+}
+
+.carousel__prev,
+.carousel__next {
+  color: $bg-color;
+  background-color: white;
+  box-sizing: content-box;
+  //border: 5px solid white;
+}
+
+.carousel__pagination-button {
+  background-color: white;
+  &:active {
+    background-color: $bg-color;
+  }
+}
+
+.carousel__pagination-button--active {
+  background-color: black;
+}
