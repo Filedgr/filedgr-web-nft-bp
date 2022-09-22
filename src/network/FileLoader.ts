@@ -7,12 +7,6 @@ class FileLoader {
     this.url = url
   }
 
-  const config = {
-    headers: {
-      "Referer": "https://www.scrapingbee.com/",
-      "Referrer-Policy": "strict-origin-when-cross-origin"
-    },
-  };
   async getCsvFile (): Promise<string> {
     const res = await axios({
       headers: {},
