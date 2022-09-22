@@ -249,7 +249,7 @@ export default class ContentContainer extends Vue {
   }
 
   private manual = './static/manual.pdf'
-  private issuer = 'rrncZdYdgi2xHnLE4wqPB4rsvLhjcGejRg'
+  private issuer = 'rfm79F9iP7mBrFzQk9mD8niSFrqBwHYHr6'
   private transactions: MyTransaction[] = []
   private messages: Map<string, string> = new Map<string, string>()
 
