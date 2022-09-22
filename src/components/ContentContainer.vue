@@ -249,7 +249,7 @@ export default class ContentContainer extends Vue {
   }
 
   private manual = './static/manual.pdf'
-  private issuer = 'rrncZdYdgi2xHnLE4wqPB4rsvLhjcGejRg'
+  private issuer = 'rfm79F9iP7mBrFzQk9mD8niSFrqBwHYHr6'
   private transactions: MyTransaction[] = []
   private messages: Map<string, string> = new Map<string, string>()
 
@@ -280,7 +280,7 @@ export default class ContentContainer extends Vue {
               date: (typeof x.tx.date === 'undefined') ? new Date() : new Date((x.tx.date + 946684800) * 1000),
               currency: fromHex(myAmount.currency).trim(),
               amount: parseFloat(myAmount.value),
-              memo: (typeof x.tx.Memos === 'undefined') ? 'No Memo' : fromHex(x.tx.Memos[0].Memo.MemoData!),
+              memo: (typeof x.tx.Memos === 'undefined') ? 'No Memo' : (x.tx.Memos[0].Memo.MemoData!),
               format: (typeof x.tx.Memos === 'undefined') ? 'No Memo' : fromHex(x.tx.Memos[0].Memo.MemoFormat!)
             })
           }
