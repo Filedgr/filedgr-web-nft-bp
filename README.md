@@ -1,4 +1,4 @@
-# filedgr-web-nft-blancpain
+# filedgr-web-nft-bp
 
 ## Project setup
 ```
